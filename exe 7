@@ -49,7 +49,6 @@
             const imc = peso / (altura * altura);
             let categoria = '';
 
-            // Definindo as categorias de IMC
             if (sexo === 'masculino') {
                 if (imc < 20) {
                     categoria = 'Abaixo do peso';
